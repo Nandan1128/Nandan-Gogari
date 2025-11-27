@@ -1852,24 +1852,19 @@
                 });
             });
 
-            // Intersection Observer for animations
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -100px 0px'
-            };
 
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.animation = 'fadeIn 1s ease-out';
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
+            // const observer = new IntersectionObserver((entries) => {
+            //     entries.forEach(entry => {
+            //         if (entry.isIntersecting) {
+            //             entry.target.style.animation = 'fadeIn 1s ease-out';
+            //             observer.unobserve(entry.target);
+            //         }
+            //     });
+            // }, observerOptions);
 
-            document.querySelectorAll('.skill-card, .project-card, .stat-card').forEach(el => {
-                observer.observe(el);
-            });
+            // document.querySelectorAll('.skill-card, .project-card, .stat-card').forEach(el => {
+            //     observer.observe(el);
+            // });
         });
 
         // Generate animated particles
@@ -1955,19 +1950,19 @@
         //     }, 16);
         // }
 
-        const statsObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const number = entry.target.querySelector('.stat-number');
-                    animateCount(number);
-                    statsObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
+        // const statsObserver = new IntersectionObserver((entries) => {
+        //     entries.forEach(entry => {
+        //         if (entry.isIntersecting) {
+        //             const number = entry.target.querySelector('.stat-number');
+        //             animateCount(number);
+        //             statsObserver.unobserve(entry.target);
+        //         }
+        //     });
+        // }, { threshold: 0.5 });
 
-        document.querySelectorAll('.stat-card').forEach(card => {
-            statsObserver.observe(card);
-        });
+        // document.querySelectorAll('.stat-card').forEach(card => {
+        //     statsObserver.observe(card);
+        // });
 
         // Contact Form Handler
         function handleSubmit(event) {
