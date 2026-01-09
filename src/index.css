@@ -468,6 +468,7 @@ nav a:hover {
     font-weight: 900;
     background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
 }
@@ -524,7 +525,7 @@ section {
     font-weight: 900;
     margin-bottom: 25px;
     background: linear-gradient(135deg, var(--text-primary), var(--text-secondary));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fadeIn 1s 0.2s both;
 }
@@ -682,7 +683,7 @@ section {
     font-size: 26px;
     margin-bottom: 15px;
     background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -819,7 +820,7 @@ section {
     font-size: 24px;
     margin-bottom: 12px;
     background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -1135,7 +1136,7 @@ footer::before {
     font-size: 40px;
     font-weight: 900;
     background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 25px;
     animation: gradient-shift 5s infinite;
