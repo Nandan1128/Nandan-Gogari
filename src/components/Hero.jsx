@@ -18,7 +18,7 @@ const Hero = () => {
                     <div className="hero-badge">Available for Work</div>
                     <h1>Nandan Gogari</h1>
                     <p className="subtitle">
-                        Crafting <strong>exceptional mobile experiences</strong> with Kotlin, MVVM architecture, and modern Android development
+                        Crafting <strong>exceptional mobile experiences</strong> with Kotlin and real world modern Android development
                     </p>
                     <div className="hero-buttons">
                         <a href="#projects" className="btn btn-primary"><span>View My Work</span></a>
