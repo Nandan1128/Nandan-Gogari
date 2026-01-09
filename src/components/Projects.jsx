@@ -6,7 +6,7 @@ const projectsData = [
         icon: '💬',
         title: 'Chat Connect',
         description: 'MVVM-based Android chat application with real-time messaging, user presence tracking, and Firebase integration. Features clean architecture and responsive UI design.',
-        tech: ['Kotlin', 'Firebase', 'MVVM', 'Realtime DB'],
+        tech: ['Kotlin', 'Firebase', 'Realtime DB'],
         links: {
             demo: '#',
             github: 'https://github.com/Nandan1128/Chat_Connect'
@@ -16,7 +16,7 @@ const projectsData = [
         icon: '🌤️',
         title: 'WeatherNow',
         description: 'Modern weather app featuring Material 3 UI, Lottie animations, and real-time weather data. Built with Retrofit, Coroutines, and MVVM architecture.',
-        tech: ['Kotlin', 'MVVM', 'Retrofit', 'Material 3'],
+        tech: ['Kotlin', 'Retrofit', 'Material 3'],
         links: {
             demo: '#',
             github: 'https://github.com/Nandan1128/Weather_App_Now'
@@ -25,8 +25,8 @@ const projectsData = [
     {
         icon: '🔄',
         title: 'StitchFlow Suite',
-        description: 'End-to-end workflow automation system with task management, secure authentication, and real-time data handling. Scalable architecture with modular UI.',
-        tech: ['React JS', 'Supabase', 'Auth', 'Real-time'],
+        description: 'End-to-end workflow automation system for Production Management with task management, secure authentication, and real-time data handling. Scalable architecture with modular UI.',
+        tech: ['React JS', 'Supabase', 'Auth', 'Real-time DB'],
         links: {
             demo: '#',
             github: 'https://github.com/jainam30/mohil-enterprise'

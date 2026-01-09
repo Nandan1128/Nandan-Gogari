@@ -8,10 +8,12 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Background from './components/Background';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
     <>
+      <Analytics />
       <Background />
       <Navbar />
       <main>
