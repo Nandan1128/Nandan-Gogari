@@ -22,7 +22,7 @@ const Hero = () => {
                     </p>
                     <div className="hero-buttons">
                         <a href="#projects" className="btn btn-primary"><span>View My Work</span></a>
-                        <a href="#contact" className="btn btn-secondary"><span>Let's Connect</span></a>
+                        <a href="#contact" className="btn btn-secondary"><span>Let&apos;s Connect</span></a>
                     </div>
                 </motion.div>
             </div>
