@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 
-// ========================================
-// 🔧 GOOGLE FORMS CONFIGURATION
-// ========================================
-// Follow the guide in google-forms-setup.md to get these values
-// Replace these with your actual Google Form values:
 
 const GOOGLE_FORM_CONFIG = {
     // Your Google Form action URL (replace FORM_ID with your actual form ID)
@@ -83,8 +78,8 @@ const Contact = () => {
             <div className="container">
                 <div className="section-header">
                     <div className="section-tag">Get In Touch</div>
-                    <h2 className="section-title">Let's Build Something Amazing</h2>
-                    <p className="section-subtitle">I'm always open to discussing new projects, creative ideas, or opportunities</p>
+                    <h2 className="section-title">Let&apos;s Build Something Amazing</h2>
+                    <p className="section-subtitle">I&apos;m always open to discussing new projects, creative ideas, or opportunities</p>
                 </div>
 
                 <div className="contact-section-wrapper">
