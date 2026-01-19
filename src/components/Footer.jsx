@@ -12,7 +12,7 @@ const Footer = () => {
                 <a href="tel:+919664635841" className="social-link">📞</a>
             </div>
 
-            <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>&copy; 2024 Nandan Gogari. Built with passion for mobile development.</p>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>&copy; 2026 Nandan Gogari. Built with passion for mobile development.</p>
         </footer>
     );
 };

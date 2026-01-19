@@ -172,7 +172,7 @@ const Contact = () => {
                         <div className="contact-info-card">
                             <div className="contact-info-icon">📍</div>
                             <h4>Location</h4>
-                            <p>Gandhinagar, Gujarat, India</p>
+                            <p>Vapi, Gujarat, India</p>
                         </div>
                     </div>
                 </div>
