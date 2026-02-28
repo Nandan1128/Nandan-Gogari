@@ -8,7 +8,7 @@ const projectsData = [
         description: 'MVVM-based Android chat application with real-time messaging, user presence tracking, and Firebase integration. Features clean architecture and responsive UI design.',
         tech: ['Kotlin', 'Firebase', 'Realtime DB'],
         links: {
-            demo: '#',
+            demo: 'https://github.com/Nandan1128/Chat_Connect/releases/tag/v1.0.0',
             github: 'https://github.com/Nandan1128/Chat_Connect'
         }
     },
@@ -28,7 +28,7 @@ const projectsData = [
         description: 'End-to-end workflow automation system for Production Management with task management, secure authentication, and real-time data handling. Scalable architecture with modular UI.',
         tech: ['React JS', 'Supabase', 'Auth', 'Real-time DB'],
         links: {
-            demo: '#',
+            demo: 'https://stitch-flow-suite.vercel.app/',
             github: 'https://github.com/jainam30/mohil-enterprise'
         }
     },
