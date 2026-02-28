@@ -44,11 +44,11 @@ const projectsData = [
     }
 ];
 
-const Projects = () => {
-    const handleDemoClick = (e) => {
-        e.preventDefault();
-        alert('Add your live demo URL here!');
-    };
+// const Projects = () => {
+//     const handleDemoClick = (e) => {
+//         e.preventDefault();
+//         alert('Add your live demo URL here!');
+//     };
 
     return (
         <section id="projects">
