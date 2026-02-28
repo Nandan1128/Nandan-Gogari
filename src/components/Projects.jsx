@@ -79,7 +79,7 @@ const Projects = () => {
                                     ))}
                                 </div>
                                 <div className="project-links">
-                                    <a href={project.links.demo} className="project-link project-link-primary" onClick={handleDemoClick}>🚀 Live Demo</a>
+                                    <a href={project.links.demo} className="project-link project-link-primary" >🚀 Live Demo</a>
                                     <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="project-link project-link-secondary">💻 GitHub</a>
                                 </div>
                             </div>
